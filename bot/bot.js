@@ -9,7 +9,7 @@ bot.start((ctx) =>
     {
       "text": "Menu",
       "web_app": {
-        "url": "https://revenkroz.github.io/telegram-web-app-bot-example/index.html"
+        "url": process.env.WEBAPP_URL
       }
     }
   )
